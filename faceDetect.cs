@@ -141,7 +141,7 @@ namespace FaceRecogniztion
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (currentFaceFlag == currentfdo.facesRectangle.Count-1)
+            if (currentfdo != null && currentFaceFlag == currentfdo.facesRectangle.Count-1)
             {
                 MessageBox.Show("已经是最后一张");
             }
